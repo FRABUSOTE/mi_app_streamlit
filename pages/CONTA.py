@@ -3,11 +3,9 @@ import pandas as pd
 import re
 from io import BytesIO
 
-import streamlit as st
 st.title("CONTA")
+st.subheader("📊 Limpieza y Ordenamiento de Libro Mayor – Cuenta 60 Importaciones")
 st.write("Página de contabilidad")
-
-st.title("📊 Limpieza y Ordenamiento de Libro Mayor – Cuenta 60 Importaciones")
 
 uploaded_file = st.file_uploader("Sube tu archivo Excel (Libro Mayor)", type=["xlsx"])
 
